@@ -1,0 +1,38 @@
+body {
+    font-size: 20px;
+    background-color:#312F47;
+    color: white;}
+
+#Opdrachten {
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    font-size: 28px;
+    padding: 10px;
+    border: solid 1px white;}
+
+#Opdrachten li {
+    list-style-type: none;}
+
+li{
+    padding: 5px;}
+
+#DataBase, #RadioButtons {
+    font-size: 25px;
+    column-count: 2;
+    column-gap: 10px; 
+    column-fill:inherit;
+    border-radius: 10px;
+    background-color: #1E1A47;
+    border: solid 1px white;
+    list-style-type: none;}  
+
+    #RadioButtons{
+    display: flex;
+    justify-content: center;}
+
+#Toelichting, #Toelichting2 {
+    text-align: center;
+    color: white;
+    font-size:30px;}
